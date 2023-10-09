@@ -1,7 +1,7 @@
 import os
-from box.exceptions import BoxValueError
+#pip install --upgrade python-box
 import yaml
-from CNNClassifier import logger
+from src.CNNClassifier import logger
 import json
 import joblib
 from ensure import ensure_annotations
